@@ -26,9 +26,10 @@ export default class ConnectionService {
     this.peer = new Peer(
       Math.random().toString().substring(2, 10) + 'mineduo',
       {
-        host: 'peerjs.ethanhawksley.hackclub.app',
-        path: '/myapp',
+        host: 'mineduo-server.onrender.com',
+        path: '/peerjs',
         secure: true,
+        port: 443,
       },
     );
     this.peer.on('open', (gameId) => {
@@ -78,9 +79,10 @@ export default class ConnectionService {
     this.isHost = false;
 
     this.peer = new Peer({
-      host: 'peerjs.ethanhawksley.hackclub.app',
-      path: '/myapp',
+      host: 'mineduo-server.onrender.com',
+      path: '/peerjs',
       secure: true,
+      port: 443,
     });
 
     this.peer.on('open', () => {
