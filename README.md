@@ -34,3 +34,7 @@ A port of Minesweeper so it can be played either by one person, or two people us
 2. Navigate to the repository settings, and to the Pages section
 3. Set to deploy from your `main` branch, and the `/` directory. Wait for GitHub to finish building the project.
 4. Visit your newly deployed site!
+
+## Author
+
+[Ethan Hawksley](https://hawksley.dev)
