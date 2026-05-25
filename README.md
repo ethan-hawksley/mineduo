@@ -19,7 +19,7 @@ A port of Minesweeper so it can be played either by one person, or two people us
 
 1. Clone the repository:
    ```shell
-   git clone https://github.com/ethan-hawksley/online-minesweeper
+   git clone https://github.com/ethan-hawksley/mineduo
    cd online-minesweeper
    ```
 2. Start a local development server
