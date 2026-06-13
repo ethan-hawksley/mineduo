@@ -4,6 +4,7 @@ import ModeSelector from './ModeSelector.js';
 import Settings from './Settings.js';
 import MenuBestScore from './MenuBestScore.js';
 import LobbySelector from './LobbySelector.js';
+import Credits from './Credits.js';
 
 export default class MainMenu {
   constructor(connectionService, databaseService, audioService) {
@@ -31,6 +32,8 @@ export default class MainMenu {
     );
     this.settings = new Settings(this.audioService);
 
+    this.credits = new Credits();
+
     // Display the elements of each part
     this.element.append(
       this.menuHeader.element,
@@ -39,6 +42,7 @@ export default class MainMenu {
       this.modeSelector.element,
       this.menuBestScore.element,
       this.settings.element,
+      this.credits.element,
     );
 
     // Render the main menu

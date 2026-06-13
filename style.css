@@ -68,8 +68,8 @@ body.dark-mode {
 body {
   /* Use readable font */
   font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   color: var(--text-colour);
   min-height: 100vh;
   background: linear-gradient(
@@ -121,6 +121,20 @@ body {
 .menu-modal {
   color: var(--text-colour);
   background-color: var(--background-colour-start);
+}
+
+.credits {
+  color: var(--text-colour);
+  margin: 3px;
+}
+
+.credits-link {
+  color: var(--menu-button-selected-colour);
+  text-decoration: none;
+}
+
+.credits-link:hover {
+  text-decoration: underline;
 }
 
 /* Default tile state */
