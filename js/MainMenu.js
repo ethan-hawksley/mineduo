@@ -32,7 +32,7 @@ export default class MainMenu {
     );
     this.settings = new Settings(this.audioService);
 
-    this.credits = new Credits();
+    // this.credits = new Credits();
 
     // Display the elements of each part
     this.element.append(
@@ -42,7 +42,7 @@ export default class MainMenu {
       this.modeSelector.element,
       this.menuBestScore.element,
       this.settings.element,
-      this.credits.element,
+      // this.credits.element,
     );
 
     // Render the main menu
