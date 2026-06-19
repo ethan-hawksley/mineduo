@@ -7,12 +7,12 @@ A port of Minesweeper so it can be played either by one person, or two people us
 ## Features
 
 1. Two different modes to play
-2. Three different difficulties, and a custom difficulty setting
+2. Three different difficulties and a custom difficulty setting
 3. Global wireless multiplayer through WebRTC
 4. Fully featured singleplayer
 5. Recursive revealing of safe tiles
 6. Flagging of suspicious tiles
-7. Optional sound effects to accompany actions
+7. Optional sound effects to go with actions
 8. Light and dark mode support
 
 ## Usage
